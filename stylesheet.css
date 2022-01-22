@@ -1,0 +1,126 @@
+.container-fluid{
+    color: #333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.title{
+    font-family:"Berlin Sans FB", sans-serif;
+    font-size: 40px;
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    font-weight: lighter;
+}
+
+
+.top-icon{
+    position: absolute;
+    z-index: 100;
+    top:0;
+    left: 100px;
+}
+.top-icon a{
+    color:black;
+}
+.top-icon-blog{
+    text-decoration: none;
+    font-family: Cooper,sans-serif;
+    font-size: 30px;
+    margin-right:10px;
+}
+.top-icon img{
+    width:50px;
+}
+.top-logo{
+    position: absolute;
+    top:200px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    z-index: 100;
+}
+.top-logo h1{
+    font-size:60px ;
+    font-family: "Bauhaus 93",sans-serif;
+    line-height: 60px;
+}
+.top-logo p{
+    font-size: 30px;
+    text-align: right;
+    font-family: "Arial Rounded MT",sans-serif;
+}
+.top-slider{
+    position: relative;
+}
+.top-slider img{
+    object-fit: cover;
+    height:600px;
+}
+
+
+
+.profile-colr h2{
+    font-family:"BIZ UDPゴシック",sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.profile-colr p{
+    line-height: 30px;
+    margin-left:30px;
+}
+.profile-colr{
+    background-color: #eeffee;
+    border-radius: 30px;
+}
+
+div .profile-row{
+    width: 60%;
+    margin:0 auto;
+}
+.profile-row img{
+    width:100%;
+    height:500px;
+    object-fit: contain;
+}
+
+
+div .pr-endst{
+margin: 70px 0;
+}
+.pr-content h5{
+    font-size: 25px;
+}
+div .pr-content{
+    padding: 0 30px;
+    width:80%;
+    margin:0 auto;
+}
+.pr-content p{
+    font-size: 20px;
+}
+.pr-content .col-6{
+    padding:0 100px 0 40px;
+}
+
+
+
+div .how-row  h4{
+    color: #333;
+    text-decoration: none;
+    font-family:"Arial Rounded MT", sans-serif;
+    font-size: 40px;
+    display:block;
+    text-align: center;
+    margin-top: 20px;
+}
+div .how-row p{
+    padding: 0 50px;
+}
+div .how-row img{
+    display:block;
+    margin: 0 auto;
+}
+.how-row a:hover{
+    color: #333;
+}
