@@ -13,4 +13,16 @@ $(function(){
   });
 
 
+  $('.one-time').slick({
+    arrows:NamedNodeMap,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    
+    adaptiveHeight: true
+
+  });
+
+
+
 });
