@@ -1,0 +1,68 @@
+@media screen and (max-width:1200px) and (min-width:770px){
+
+   .profile-colrr{
+     background-color: white;
+     padding-top:0px !important;
+   } 
+
+   .one-time div{
+       display:none;
+   }
+   .two-time div{
+       display:block;
+   }
+
+   div .profile-row{
+       height:1200px;
+   }
+
+   .profile-colr{
+       height:700px;
+   }
+
+  div .profile-colrr {
+      padding-left: 70px;
+   }
+
+   div .service{
+       margin-top:45px;
+   }
+   div .youtube{
+       margin-top: 100px;
+   }
+   
+}
+
+
+
+
+@media screen and (max-width:769px){
+
+
+    .title{
+        margin-left: 5px;
+    }
+    div .profile-colrr{
+        background-color: white;
+        padding-top:60px !important;
+      } 
+      .one-time div{
+        display:none;
+    }
+    .two-time div{
+        display: block;
+    }
+    div .profile-colrr {
+        padding-left: 70px;
+     }
+     div .service{
+        margin-top:45px;
+    }
+    div .youtube , div .teratail{
+        margin-top: 100px;
+    }
+    div .pr-content .col-xs-12{
+        padding:0 10px;
+    }
+
+}
