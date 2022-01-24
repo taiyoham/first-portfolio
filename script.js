@@ -17,8 +17,8 @@ $(function(){
     arrows:NamedNodeMap,
     infinite: true,
     speed: 300,
-    slidesToShow: 4,
-    
+    slidesToShow: 3,
+    swipeToSlide:true,
     adaptiveHeight: true
 
   });
