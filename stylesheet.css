@@ -26,11 +26,12 @@
 .top-icon-blog{
     text-decoration: none;
     font-family: Cooper,sans-serif;
-    font-size: 30px;
+    font-size: 36px;
     margin-right:10px;
 }
 .top-icon img{
-    width:50px;
+    width:90px;
+    height:130px;
 }
 .top-logo{
     position: absolute;
@@ -82,11 +83,12 @@
 }
 
 div .profile-row{
-    width:90%;
-    margin:0 auto;
+    width:95%;
+    margin: 0 auto !important;
     height:700px;
 }
 .profile-row img{
+    padding-right: 10px;
     width:100%;
     height:700px;
     object-fit: cover;
@@ -101,6 +103,7 @@ padding-top: 40px;
 .profile-colrr h2{
     font-family: "Arial Rounded MT",sans-serif;
     color: black;
+    display:inline-block;
     
 }
 .profile-colrr a{
@@ -108,6 +111,7 @@ padding-top: 40px;
 }
 .profile-colrr a :hover{
     text-shadow: 3px 2px 3px gray;
+    transition: all 0.5s;
 
 }
 
@@ -120,8 +124,8 @@ padding-top: 40px;
 .pr{
     background-color: #eeeeee;
 }
-div .pr-endst{
-margin: 70px 0;
+.pr-title{
+    padding-top: 30px;
 }
 .pr-content h5{
     font-size: 25px;
@@ -129,18 +133,20 @@ margin: 70px 0;
     font-weight: bolder;
 }
 div .pr-content{
-    padding: 0 30px;
-    width:80%;
-    margin:0 auto;
+    width:90%;
+    margin: 0 auto;
 }
 .pr-content p{
     font-size: 20px;
 }
-.pr-content .col-6{
-    padding:0 100px 0 40px;
+div .pr-content .col-xs-12{
+    padding:0 100px;
 }
 
 
+.two-time div{
+    display:none;
+}
 
 .one-time img{
 width: 80%;
@@ -163,6 +169,29 @@ margin:0 auto;
     margin:0px 20px 20px 20px;
     border-radius: 50px;
 }
+
+
+.two-time img{
+    width: 80%;
+    height:350px;
+    object-fit: contain;
+    margin:0 auto;
+    }
+    .two-time h3{
+        font-family: Cooper,sans-serif;
+        font-size: 50px;
+        text-align:center;
+    }
+    .two-time p{
+        font-size: 20px;
+        text-align:center;
+        padding: 0 20px;
+    }
+    .two-time div{
+        height:600px;
+        margin:0px 20px 20px 20px;
+        border-radius: 50px;
+    }
 
 
 
