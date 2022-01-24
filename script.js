@@ -1,6 +1,3 @@
-$(function(){
-
-
   $('.top-slider').slick({
     autoplay:true,
     arrows:false,
@@ -30,7 +27,3 @@ $(function(){
     swipeToSlide:true,
     adaptiveHeight: true
   }); 
-
-
-
-});
