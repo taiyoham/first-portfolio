@@ -41,7 +41,11 @@
 
     .title{
         margin-left: 5px;
-        font-size: 50px;
+        font-size: 45px;
+    }
+    .profile-row img{
+        height:600px;
+        margin-bottom: 10px;
     }
     div .profile-colrr{
         background-color: white;
@@ -56,9 +60,12 @@
     div .two-time{
         margin-top: 100px;
     }
-    
     .two-time div{
         display: block;
+    }
+    .two-time div  img{
+        width:50%;
+        padding-bottom: -50px !important;
     }
     div .profile-row{
         height:1200px;
