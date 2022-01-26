@@ -15,9 +15,12 @@
    div .profile-row{
        height:1200px;
    }
+   div .profile-row img{
+       height:500px;
+   }
 
    .profile-colr{
-       height:700px;
+       height:500px;
    }
 
   div .profile-colrr {
@@ -39,12 +42,15 @@
 @media screen and (max-width:769px){
 
 
+    .top-slider img{
+        height:400px;
+    }
     .title{
         margin-left: 5px;
         font-size: 45px;
     }
     .profile-row img{
-        height:600px;
+        height:400px;
         margin-bottom: 10px;
     }
     div .profile-colrr{
